@@ -1,0 +1,17 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Run AssessPro Swing",
+            "request": "launch",
+            "mainClass": "Main",
+            "classPaths": [
+                "$Auto",
+                "${workspaceFolder}/lib/mysql-connector-j.jar",
+                "${workspaceFolder}/lib/jfreechart-1.5.4.jar"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
